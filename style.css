@@ -1,0 +1,209 @@
+body {
+  height: 100vh;
+}
+
+.main-container {
+  position: relative;
+}
+
+.main-wrapper {
+  position: relative;
+  width: 700px;
+  margin-top: 150px !important;
+  margin: auto;
+}
+
+/* for the curved dash line classes */
+.dashed-line {
+  width: 600px;
+  height: 600px;
+  border-top: 1px dashed;
+  border-radius: 50%;
+}
+
+.dashed-line-2 {
+  width: 550px;
+  height: 550px;
+  border-top: 2px dashed;
+  border-radius: 50%;
+}
+
+.dashed-line-3 {
+  width: 500px;
+  height: 500px;
+  border-top: 2px dashed;
+  border-radius: 50%;
+}
+
+.dashed-line-4 {
+  width: 450px;
+  height: 450px;
+  border-top: 2px dashed;
+  border-radius: 50%;
+}
+
+/* for the wrapper classes */
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-2 {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-3 {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-4 {
+  position: absolute;
+  top: 210px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* for the avatars */
+.first-avatar {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  left: 70px;
+  top: 60px;
+}
+
+.first-avatar-2 {
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  right: -5px;
+  top: 200px;
+}
+
+.second-avatar {
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  left: 50px;
+  top: 80px;
+}
+
+.second-avatar-2 {
+  height: 32px;
+  width: 32px;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  right: 110px;
+  top: 30px;
+}
+
+.third-avatar {
+  height: 32px;
+  width: 32px;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  left: 45%;
+  top: -15px;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+/* the main contents including the writeup and cards slider */
+.slider-container {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -80px; /* may not be necessary, adjust the values for better position */
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 150px;
+}
+
+.card {
+  height: 150px;
+  width: 200px;
+  background: lightgray;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .main-wrapper {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    margin-top: 100px !important;
+    margin: auto;
+  }
+
+  /* for the curved dash line classes */
+  .dashed-line {
+    width: 500px;
+    height: 500px;
+  }
+
+  .dashed-line-2 {
+    width: 450px;
+    height: 450px;
+  }
+
+  .dashed-line-3 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .dashed-line-4 {
+    width: 350px;
+    height: 350px;
+  }
+
+  /* for the avatars */
+  .first-avatar {
+    top: 40px;
+  }
+
+  .first-avatar-2 {
+    right: 40px;
+    top: 75px;
+  }
+
+  .second-avatar {
+    top: 50px;
+  }
+
+  .second-avatar-2 {
+    top: 10px;
+  }
+}
