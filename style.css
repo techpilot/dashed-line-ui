@@ -141,6 +141,10 @@ body {
   right: 0;
   left: 0;
   top: -80px; /* may not be necessary, adjust the values for better position */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
 }
 
 .card-container {
@@ -148,7 +152,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 .card {
